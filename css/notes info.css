@@ -1,0 +1,132 @@
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+/* box */ 
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+html{
+	scroll-behavior: smooth;
+  }
+  
+  ::selection{
+	border-radius: 80px;
+	background-color: #fd5f03e0;
+  }
+  
+  ::-webkit-scrollbar{
+	border-radius: 80px;
+	width: 10px;
+	background-color: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+	border-radius: 80px;
+	background-color: #fd5f03de;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/img/images/clgstatics.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+    background-position: center;
+    font: normal 200 20px var(--roboto);
+}
+
+.loginbox{
+    width: 400px;
+    height: 500px;
+    background: #00000084;
+    box-shadow: 11px 19px 11px #2a1c23cd;
+    border-radius: 70px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="number"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox button[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    margin-left: 9%;
+    width: 80%;
+    background: #fb8c25e8;
+    margin-top: 20%;
+    color: #fff;
+    border-radius: 20px;
+}
+.loginbox button[type="submit"] a
+{
+    font-size: 18px;
+    color: #fff;
+}
+.loginbox button[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffffffa8;
+}
+.loginbox button[type="submit"]:hover a
+{
+    color: #2a1c23;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover
+{
+    color: #ffc107;
+}
+

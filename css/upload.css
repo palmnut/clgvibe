@@ -1,0 +1,169 @@
+
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+/* box */ 
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html{
+	scroll-behavior: smooth;
+  }
+  
+  ::selection{
+	border-radius: 80px;
+	background-color: #fd5f03e0;
+  }
+  
+  ::-webkit-scrollbar{
+	border-radius: 80px;
+	width: 10px;
+	background-color: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+	border-radius: 80px;
+	background-color: #fd5f03de;
+  }
+
+*{
+	font-family: 'Montserrat', sans-serif;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: normal 500 15px/2px var(--roboto);
+}
+
+body{
+	background: #ffffff;
+	color: #000000;
+	background: url(../img/images/Hanging\ Lamp.png) no-repeat,url(../img/images/p2.png) no-repeat,url(../img/images/Hanging\ Lamp.png) no-repeat,url(../img/images/cloud-orange.gif) no-repeat;
+	background-position: 0% 0%, 0% 0%, 100% 0%, 50% 50%;
+    background-attachment: fixed;
+}
+
+.wrapper{
+	position: absolute;
+	border-radius: 10px;
+	box-shadow: 10px 18px 10px #00000061;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 600px;
+	width: 900px;
+	background: #f3f4f855;
+}
+
+.title{
+	background: #f3f4f8;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.file_upload_list li .file_item{
+	display: flex;
+	border-bottom: 1px solid #f3f4f8;
+    padding: 15px 20px;
+}
+.file_item .format{
+	background: #fd812e;	
+	border-radius: 10px;
+	width: 45px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	margin-right: 15px;
+}
+.file_item .format p{
+	margin-top: 45%;
+}
+
+.file_item .file_progress{
+	width: calc(100% - 60px);
+	font-size: 14px;
+}
+
+.file_item .file_info,
+.file_item .file_size_wrap{
+	display: flex;
+	align-items: center;
+}
+.file_item .file_info{
+	justify-content: space-between;
+}
+.file_item .file_progress .progress{
+	width: 100%;
+	height: 4px;
+	background: #efefef;
+	overflow: hidden;
+	border-radius: 5px;
+	margin-top: 8px;
+	position: relative;
+}
+
+.file_item .file_progress .progress .inner_progress{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #58e380;
+}
+.file_item .file_size_wrap .file_size{
+	margin-right: 15px;
+}
+.file_item .file_size_wrap .file_close{
+	border: 1px solid #ff9f39;
+	color: #fda829;
+	width: 20px;
+	height: 20px;
+	line-height: 18px;
+	text-align: center;
+	border-radius: 50%;
+	font-size: 10px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.file_item .file_size_wrap .file_close:hover{
+	background: #ffa340;
+	color: #fff;
+}
+
+.choose_file label{
+	display: block;
+	border: 2px dashed #faa45e;
+	padding: 15px;
+	width: calc(100% - 20px);
+	margin: 10px;
+	margin-top: 90px;
+	text-align: center;
+	cursor: pointer;
+}
+.choose_file #choose_file{
+	outline: none;
+	opacity: 0;
+    width: 0;
+}
+.choose_file span{
+	font-size: 14px;
+	color: #d39c78;
+}
+
+.choose_file label:hover span{
+	text-decoration: underline;
+}
