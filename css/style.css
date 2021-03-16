@@ -84,7 +84,7 @@ body{
 /* Banner Area */ 
 
 .site-main .site-banner {
-    background: url(../img/images/p) no-repeat 100% 100%;
+    background: url(./img/images/p) no-repeat 100% 100%;
     background-position: -10% 50%;
     background-attachment: fixed;
 }
