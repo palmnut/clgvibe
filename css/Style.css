@@ -327,7 +327,7 @@ main .site-title .btn{
 }
 
 main .site-title .btn:hover{
-    background: transparent;
+    background: #0f0f0f33;
     border: 1px solid var(--white);
     color: var(--white);
     transition: 0.5s;
