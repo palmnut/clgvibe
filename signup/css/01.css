@@ -236,7 +236,7 @@ nav{
 
 	.form{
 		width: 700px;
-		background-image: url("/assets/9814.png");
+		background-image: url(".../assets/9814.png");
 		background-size: 50%;
 		background-repeat: no-repeat;
 		background-position-x: right ;
