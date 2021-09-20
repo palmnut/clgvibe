@@ -399,6 +399,7 @@ body {
   text-align:center;
   opacity:0;
   top:-200%;
+  box-shadow: 5px 5px 8px rgb(129, 154, 181 , 0.43), -6px -6px 10px rgb(255 255 255);
   transform:translate(-50%,-50%) scale(0.5);
   transition: opacity 300ms ease-in-out,
               top 1000ms ease-in-out,
