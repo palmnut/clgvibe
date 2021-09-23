@@ -98,6 +98,7 @@ body, html {
   background: white;
   box-shadow: 0 0 8rem 0 rgba(0, 0, 0, 0.1), 2rem 2rem 4rem -3rem rgba(0, 0, 0, 0.5);
   transition: transform 500ms;
+  transform: translate(-23rem, -50%);
 }
 .contacts h2 {
   margin: 0.5rem 0 1.5rem 5rem;
@@ -127,9 +128,6 @@ body, html {
 }
 .contacts .contact:last-child {
   margin: 0;
-}
-.contacts:hover {
-  transform: translate(-23rem, -50%);
 }
 
 .chat {
