@@ -189,10 +189,12 @@ h2
 .Upload1:hover{
     background-color: #fbfbfb;
     color: #0d5ffd;
+    transition: 0.8s;
   }
 .Upload2:hover{
     background-color: #f7f7f7;
     color: #0d5ffd;
+    transition: 0.8s;
   }
 
   /*              Viewport greater then or equal to 980px            */
