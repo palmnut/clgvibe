@@ -163,16 +163,3 @@ h4 > span{
 #mcl_body div.right_side li.active{
 	color: #5d8aef;
 }
-
-span.bar:before{
-	position: absolute;
-	display: block;
-	content: '';
-	height: 55px;
-	width: 5px;
-	background: #cdcdcd;
-	border: none;
-	border-radius: 2px;
-	right: -65.5px;
-	top: 50%;
-}
