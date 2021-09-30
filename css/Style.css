@@ -655,7 +655,7 @@ footer.footer .move-up span:hover{
     }
 
     .nav{
-    background: url(../assets/white.jpg),#ffffff;
+    background: url(../assets/white.jpg);
     background-size: cover;
     }
 
