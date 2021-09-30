@@ -408,6 +408,7 @@ main .post-content .post-title a{
     padding: .6rem .9rem;
     border-radius: 2rem;
     margin: 0 .3rem;
+    text-align: center;
     font-family: var(--Lexend);
 }
 
