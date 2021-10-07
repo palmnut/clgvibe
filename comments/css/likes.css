@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+body {
+  background: linear-gradient(to right, #ffffffa0, #dadada95, #e0e1e379, #ffffffa0);
+}
+
+::selection {
+  background-color: #0d5ffd;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 50px;
+  background-color: whitesmoke;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0d5ffd;
+}
+
+h3 {
+  margin-top: 2%;
+  margin-left: 27%;
+  font-family: 'Manrope', sans-serif;
+  font-weight: bold
+}
+
+.row {
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+.row a {
+  font-size: 20px;
+  margin-top: 3%;
+  margin-left: 5%;
+
+}
+
+.row h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-left: 30%;
+}
+
+.card {
+  background: #ffffff00;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  width: 800px;
+  margin-top: -10%;
+  margin-bottom: 10%;
+}
+
+img {
+  border-radius: 10px;
+  padding-right: 5px;
+  width: 60px;
+  height: 55px
+}
+
+img:hover {
+  cursor: pointer
+}
+
+.round .align-self-start {
+  border-radius: 100%;
+  width: 45px;
+  height: 40px
+}
+
+.media .comment {
+  background: #F4F4F4;
+  border: none;
+  border-radius: 10px
+}
+
+h6.user {
+  color: #5C5C5C;
+  font-size: 15px !important;
+  padding-left: 15px !important;
+  margin-bottom: 0
+}
+
+h6.user:hover {
+  cursor: pointer;
+  text-decoration: underline
+}
+
+p.text {
+  margin-bottom: 0;
+  color: #8A8A8A !important;
+  font-size: 14px
+}
+
+.ml-auto {
+  margin-right: 10px
+}
+
+p .reply {
+  color: #5C5C5C;
+  font-size: 15px
+}
+
+@media screen and (max-width: 1400px) {
+  .card {
+    width: 500px;
+    margin-top: -5%;
+    margin-left: -10%;
+    margin-bottom: 10%;
+  }
+}
+
+
+@media screen and (max-width: 980px) {
+  .row h3 {
+    margin-left: 20%;
+  }
+  .card {
+    width: 300px;
+    margin-top: -5%;
+    margin-left: -15%;
+    margin-bottom: 10%;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .comment {
+    width: 470px !important
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .row h3 {
+    margin-left: 20%;
+  }
+}
