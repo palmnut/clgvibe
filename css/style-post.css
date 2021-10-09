@@ -387,10 +387,6 @@ button.btn:hover {
   flex: 0 0 25%;
 }
 
-.card1 .footer .like i:hover {
-  color: #0099ff;
-}
-
 .card1 .footer .comment {
   color: #333;
   margin-left: 5%;
@@ -534,10 +530,6 @@ button.btn:hover {
 .card .footer .like {
   color: #333;
   flex: 0 0 25%;
-}
-
-.card .footer .like i:hover {
-  color: #0099ff;
 }
 
 .card .footer .comment {
@@ -1461,8 +1453,8 @@ footer.footer .rights h4 a {
 
 
   .card1 .footer .like p {
-    margin-left: 35%;
-    margin-top: -30%;
+    margin-left: 40%;
+    margin-top: -35%;
     color: #333;
   }
 
