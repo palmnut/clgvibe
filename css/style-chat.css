@@ -2,17 +2,17 @@
 @import url('../css/fonts.css');
 
 ::selection {
-  background-color: #0d5ffd;
+  background-color: #0d5dfd8e;
 }
 
 ::-webkit-scrollbar {
   width: 6px;
   border-radius: 50px;
-  background-color: whitesmoke;
+  background-color: #f5f5f57e;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #0d5ffd;
+  background-color: #0d5dfd8e;
 }
 
 :root {
@@ -883,4 +883,40 @@ html {
     border-radius: 6px;
   }
 
+}
+
+/* Text Box */
+.text {
+  margin-bottom: 3%;
+  width: 90%;
+  margin-left: 0%;
+}
+
+.text2 {
+  margin-top: 4%;
+  margin-bottom: -5%;
+  margin-left: 2%;
+  color: #999;
+  cursor: text;
+}
+
+.text2:hover{
+  opacity: 0;
+}
+
+.text3 {
+  margin-top: 2%;
+  border: none;
+  max-height: 100px;
+  overflow-y: auto;
+  background-image: none;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  border-radius: 1.125rem;
+  flex-grow: 2;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1), 0rem 1rem 1rem -1rem rgba(0, 0, 0, 0.2);
+  font-family: Red hat Display, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.025em;
 }
