@@ -515,7 +515,7 @@ html {
     background: #e3e9ed url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/search.png") -11px 0 no-repeat;
     height: 60px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
   }
