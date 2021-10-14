@@ -589,7 +589,7 @@ footer.footer .move-up span:hover{
    /* ---------------------------- Intro  ---------------------------------------------- */
 
    .intro {
-    background: white;
+    background: #eff4ff;
     position: fixed;
     top: 0;
     left: 0;
@@ -620,7 +620,7 @@ footer.footer .move-up span:hover{
   
   .hide {
       text-align: center;
-    background: white;
+    background: #eff4ff;
     overflow: hidden;
   }
   

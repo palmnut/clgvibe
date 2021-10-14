@@ -94,7 +94,7 @@ p{
 /* ------x------- Global Classes -------x-------*/
 
 body{
-    background: linear-gradient(to right, #dbdadaa0,#f7f7f795,#fefeff79,#e6e6e6a0 );
+    background: #eff4ff;
     overflow-x: hidden;
     padding-left: 35rem;
 }

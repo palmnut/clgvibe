@@ -8,6 +8,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     color: #747e74;
+    background-color: #eff4ff;
     overflow-x: hidden;
 }
 
@@ -213,7 +214,7 @@ span {
     display: table;
     height: 100%;
     width: 100%;
-    background-color: #fff;
+    background-color: #eff4ff;
     z-index: 99999;
 }
 
@@ -308,7 +309,7 @@ span {
 
 .sticky {
     position: fixed;
-    background-color: #fff;
+    background-color: #eff4ff;
     box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.5);
 }
 
