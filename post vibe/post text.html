@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Clgvibe</title>
+  <meta name="description" content="clgvibe- Upload and share vidoes in your campus.  " />
+  <meta name="robots" content="index, follow">
+  <link rel="shortcut icon" type="image/x-icon" href="../assets/logo (1).png" />
+  <!-- Style   -->
+  <link rel="stylesheet" href="../css/post.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!--Javascript file -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+  <script src="../js/scripts.js"></script>
+</head>
+
+<body>
+
+  <section id="contact">
+    <h1 class="section-title">Post A vibe</h1>
+    <div class="inner-width">
+      <div class="contact-info">
+        <form action="/postfit" method="post" class="contact-form" onsubmit="updateinfo()" enctype="multipart/form-data">
+        <form action="/postfit" method="post" class="contact-form" enctype="multipart/form-data">
+          <div class="input-div one">
+            <div class="div">
+              <h5>What's in your mind ?</h5>
+              <input required type="text" name="message" class="username input" id="username" />
+            </div>
+          </div>
+          <input type="submit" value="&nbsp; Post Vibe &nbsp;" id="btn1" class="btn">
+        </form>
+      </div>
+  </section>
+
+  <script>
+    const profileInput = document.querySelector("#fitpic");
+    const profileImg = document.querySelector("#fitpicpreview");
+  
+    const imgPreview = (input, img) => {
+      if (input.files && input.files[0]) {
+        let reader = new FileReader(input);
+        reader.onload = function (e) {
+          img.setAttribute("src", e.target.result);
+        };
+        reader.readAsDataURL(input.files[0]);
+      }
+    };
+  
+    profileInput.addEventListener("change", () => {
+      imgPreview(profileInput, profileImg);
+    });
+  </script>
+  <script>
+  function updateinfo(){
+    let descrip=document.getElementById('username');
+    let desc=descrip.value;
+    if(desc.substring(0,4)=='http'||desc.substring(0,4)=='HTTP'){
+      descrip.value='<a href="'+$;{desc}+'" target="_blank">'+desc+'</a>';
+    }
+    else{
+      descrip.value=desc;
+    }
+  }
+  </script>
+  <script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>
