@@ -309,7 +309,7 @@ span {
 
 .sticky {
     position: fixed;
-    background-color: #eff4ff;
+    background-color: #ffff;
     box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.5);
 }
 
