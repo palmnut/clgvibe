@@ -105,6 +105,7 @@ body {
   z-index: 10;
   background-color: #fff;
   width: 300px;
+  letter-spacing: normal;
   height: 0px;
   opacity: 0;
   overflow-y: auto;
