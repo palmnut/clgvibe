@@ -1,0 +1,227 @@
+/* box */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  font: normal 500 15px/2px var(--roboto);
+  user-zoom: none !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+}
+
+::selection {
+  background-color: #0d5ffd;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 50px;
+  background-color: whitesmoke;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0d5ffd;
+}
+
+body {
+  background-image: url("../assets/abstract2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #eff4ff;
+  color: #000000;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  border-radius: 10px;
+  box-shadow: 0 5px 10px #d8d8d8;
+  padding: 100px;
+  margin: auto;
+  width: 1000px;
+}
+
+.user {
+  margin-left: 25px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.user i {
+  background-color: #0d5ffd;
+  color: #ffffff;
+  font-size: inherit;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.search-area {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-area .search form input {
+  border-top-right-radius: 70px;
+  border-bottom-right-radius: 70px;
+  background-color: #ddd;
+  border-left: none;
+  border-color: #1d254500 transparent;
+  padding: 10px;
+  font-size: 17px;
+  color: #000000;
+  float: right;
+  width: 80%;
+}
+
+.search-area .search form button {
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 70px;
+  background-color: #0d5ffd;
+  border-right: none;
+  border-color: #f5f5f500;
+  float: right;
+  width: 20%;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.search-area .filter button {
+  border-radius: 70px;
+  background-color: transparent;
+  color: #000000;
+  padding: 10px 20px;
+  border-color: #1d2545;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.search-area .filter button:hover {
+  background-color: #0d5ffd;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+table {
+  border-radius: 50px;
+  color: #000000;
+  padding: 10px;
+  width: 100%;
+}
+
+table th,
+table td {
+  padding: 15px;
+  text-align: left;
+  line-height: 15px;
+}
+
+table tbody tr {
+  background-color: #dadada;
+}
+
+table tbody tr:hover {
+  background-color: #b4cbf8;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+table tbody tr td:first-of-type {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+table tbody tr td:last-of-type {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+}
+
+table tbody tr.priority-200 td:first-of-type {
+  border-left: 5px solid #9c7c64;
+}
+
+table tbody tr.priority-300 td:first-of-type {
+  border-left: 5px solid #5c8cdc;
+}
+
+table tbody tr.priority-600 td:first-of-type {
+  border-left: 5px solid #40c587;
+}
+
+table tbody tr td .fa-circle {
+  transform: scale(0.5);
+}
+
+table tbody tr.priority-200 td .fa-circle {
+  color: #9c7c64;
+}
+
+table tbody tr.priority-300 td .fa-circle {
+  color: #5c8cdc;
+}
+
+table tbody tr.priority-600 td .fa-circle {
+  color: #40c587;
+}
+
+.delete {
+  cursor: pointer;
+  background-color: #23283b;
+  border: 0;
+  border-radius: 2px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 5px 10px;
+  opacity: 0;
+}
+
+table tbody tr:hover .delete {
+  opacity: 1;
+}
+
+.add-btn {
+  cursor: pointer;
+  float: right;
+  padding: 15px;
+  font-size: 17px;
+  margin-top: 15px;
+  margin-right: 10px;
+  background-color: #0d5ffd;
+  background-image: linear-gradient(326deg, #0d5ffd 0%, #5e8ff1 74%);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+}
+
+.add-btn i {
+  color: #ffffffcf;
+}
+
+.add-btn i:hover {
+  color: #2d292d82;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  table tbody tr .delete {
+    opacity: 1;
+  }
+
+  table th:nth-of-type(3),
+  table td:nth-of-type(3) {
+    display: none;
+  }
+}
