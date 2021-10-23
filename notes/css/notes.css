@@ -34,8 +34,6 @@ body {
   color: #000000 !important;
   font-family: 'Source Sans Pro', sans-serif;
   display: flex;
-  overflow-x: scroll!important;
-  overflow-y: scroll!important;
   align-items: center;
   justify-content: center;
   height: 100vh;
