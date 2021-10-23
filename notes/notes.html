@@ -10,6 +10,10 @@
   <!-- Style   -->
   <link rel="stylesheet" href="./css/notes.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.rawgit.com/gextech/Semantic-UI/master/dist/semantic.min.css" />
+  <!-- Javascript file -->
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js"></script>
 </head>
 
 <body>
@@ -31,95 +35,365 @@
       </div>
     </div>
 
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Date</th>
-          <th>Downloads</th>
-          <th>Pages</th>
-          <th></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="priority-200">
-          <td><i class="fas fa-folder"></i>&nbsp; Notes 1</td>
-          <td>dd/mm/yy</td>
-          <td><i class="fas fa-circle"></i>200</td>
-          <td>190</td>
-          <td>
-            <button class="delete"><i class="fas fa-download"></i></i></button>
-          </td>
-        </tr>
-        <tr class="priority-300">
-          <td><i class="fas fa-folder"></i>&nbsp; Notes 2</td>
-          <td>dd/mm/yy</td>
-          <td><i class="fas fa-circle"></i>600</td>
-          <td>478</td>
-          <td>
-            <button class="delete"><i class="fas fa-download"></i></i></button>
-          </td>
-        </tr>
-        <tr class="priority-600">
-          <td><i class="fas fa-folder"></i>&nbsp; Notes 3</td>
-          <td>dd/mm/yy</td>
-          <td><i class="fas fa-circle"></i>300</td>
-          <td>322</td>
-          <td>
-            <button class="delete"><i class="fas fa-download"></i></i></button>
-          </td>
-        </tr>
-        <tr class="priority-200">
-          <td><i class="fas fa-folder"></i>&nbsp; Notes 4</td>
-          <td>dd/mm/yy</td>
-          <td><i class="fas fa-circle"></i>200</td>
-          <td>197</td>
-          <td>
-            <button class="delete"><i class="fas fa-download"></i></i></button>
-          </td>
-        </tr>
-        <tr class="priority-300">
-          <td><i class="fas fa-folder"></i>&nbsp; Notes 5</td>
-          <td>dd/mm/yy</td>
-          <td><i class="fas fa-circle"></i>300</td>
-          <td>289</td>
-          <td>
-            <button class="delete"><i class="fas fa-download"></i></i></button>
-          </td>
-        </tr>
-        <tr class="priority-600">
-          <td><i class="fas fa-folder"></i>&nbsp; Notes 6</td>
-          <td>dd/mm/yy</td>
-          <td><i class="fas fa-circle"></i>300</td>
-          <td>289</td>
-          <td>
-            <button class="delete"><i class="fas fa-download"></i></i></button>
-          </td>
-        </tr>
-        <tr class="priority-200">
-          <td><i class="fas fa-folder"></i>&nbsp; Notes 7</td>
-          <td>dd/mm/yy</td>
-          <td><i class="fas fa-circle"></i>300</td>
-          <td>289</td>
-          <td>
-            <button class="delete"><i class="fas fa-download"></i></i></button>
-          </td>
-        </tr>
-        <tr class="priority-300">
-          <td><i class="fas fa-folder"></i>&nbsp; Notes 8</td>
-          <td>dd/mm/yy</td>
-          <td><i class="fas fa-circle"></i>300</td>
-          <td>289</td>
-          <td>
-            <button class="delete"><i class="fas fa-download"></i></i></button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <button type="submit" class="add-btn"><a class="nav-link" href="notes_2.html">
-        <i class="fas fa-plus"></i></a>
-    </button>
+    <div class="ui text container">
+      <div class="ui inverted top attached tabular menu">
+        <a class="item active" data-tab="first">Your Uplodes</a>
+        <a class="item" data-tab="second">All Notes</a>
+      </div>
+      <div class="ui bottom attached tab inverted segment active" data-tab="first">
+        <button class="ui compact icon button">
+          <i class="upload icon"></i><a style="color: #00000099;" href="notes_2.html">Upload...</a>
+        </button>
+        <div class="ui inverted relaxed middle aligned divided list">
+          <div class="item">
+            <div class="right floated content">
+              <button class="tiny ui compact apply preset button">Hide</button>
+              <div class="tiny ui left pointing dropdown compact icon button">
+                More
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                  <div class="item">
+                    <i class="download icon"></i> Download
+                  </div>
+                  <div class="divider"></div>
+                  <div class="item"><i class="write icon"></i>Rename</div>
+                  <div class="item"><i class="copy icon"></i>Make a copy</div>
+                  <div class="divider"></div>
+                  <div class="item">
+                    <i class="trash icon"></i>Delete
+                  </div>
+                </div>
+              </div>
+            </div>
+            <i class="far fa-file-pdf middle aligned icon" style="font-size: xx-large;"></i>
+            <div class="content floated">
+              <h4 class="ui header">Display</h4>
+              <div class="description">Updated 11 mins ago</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="right floated content">
+              <button class="tiny ui compact apply preset button">Hide</button>
+              <div class="tiny ui left pointing dropdown compact icon button">
+                More
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                  <div class="item">
+                    <i class="download icon"></i> Download
+                  </div>
+                  <div class="divider"></div>
+                  <div class="item"><i class="write icon"></i>Rename</div>
+                  <div class="item"><i class="copy icon"></i>Make a copy</div>
+                  <div class="divider"></div>
+                  <div class="item">
+                    <i class="trash icon"></i>Delete
+                  </div>
+                </div>
+              </div>
+            </div>
+            <i class="far fa-file-pdf middle aligned icon" style="font-size: xx-large;"></i>
+            <div class="content floated">
+              <h4 class="ui header">Display</h4>
+              <div class="description">Updated 11 mins ago</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="right floated content">
+              <button class="tiny ui compact apply preset button">Hide</button>
+              <div class="tiny ui left pointing dropdown compact icon button">
+                More
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                  <div class="item">
+                    <i class="download icon"></i> Download
+                  </div>
+                  <div class="divider"></div>
+                  <div class="item"><i class="write icon"></i>Rename</div>
+                  <div class="item"><i class="copy icon"></i>Make a copy</div>
+                  <div class="divider"></div>
+                  <div class="item">
+                    <i class="trash icon"></i>Delete
+                  </div>
+                </div>
+              </div>
+            </div>
+            <i class="far fa-file-pdf middle aligned icon" style="font-size: xx-large;"></i>
+            <div class="content floated">
+              <h4 class="ui header">Display</h4>
+              <div class="description">Updated 11 mins ago</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="right floated content">
+              <button class="tiny ui compact apply preset button">Hide</button>
+              <div class="tiny ui left pointing dropdown compact icon button">
+                More
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                  <div class="item">
+                    <i class="download icon"></i> Download
+                  </div>
+                  <div class="divider"></div>
+                  <div class="item"><i class="write icon"></i>Rename</div>
+                  <div class="item"><i class="copy icon"></i>Make a copy</div>
+                  <div class="divider"></div>
+                  <div class="item">
+                    <i class="trash icon"></i>Delete
+                  </div>
+                </div>
+              </div>
+            </div>
+            <i class="far fa-file-pdf middle aligned icon" style="font-size: xx-large;"></i>
+            <div class="content floated">
+              <h4 class="ui header">Display</h4>
+              <div class="description">Updated 11 mins ago</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="right floated content">
+              <button class="tiny ui compact apply preset button">Hide</button>
+              <div class="tiny ui left pointing dropdown compact icon button">
+                More
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                  <div class="item">
+                    <i class="download icon"></i> Download
+                  </div>
+                  <div class="divider"></div>
+                  <div class="item"><i class="write icon"></i>Rename</div>
+                  <div class="item"><i class="copy icon"></i>Make a copy</div>
+                  <div class="divider"></div>
+                  <div class="item">
+                    <i class="trash icon"></i>Delete
+                  </div>
+                </div>
+              </div>
+            </div>
+            <i class="far fa-file-pdf middle aligned icon" style="font-size: xx-large;"></i>
+            <div class="content">
+              <h4 class="ui header">Display</h4>
+              <div class="description">Updated 19 mins ago</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="right floated content">
+              <button class="tiny ui compact apply preset button">Hide</button>
+              <div class="tiny ui left pointing dropdown compact icon button">
+                More
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                  <div class="item">
+                    <i class="download icon"></i> Download
+                  </div>
+                  <div class="divider"></div>
+                  <div class="disabled item"><i class="write icon"></i>Rename</div>
+                  <div class="item"><i class="copy icon"></i>Make a copy</div>
+                  <div class="divider"></div>
+                  <div class="disabled item">
+                    <i class="trash icon"></i>Delete
+                  </div>
+                </div>
+              </div>
+            </div>
+            <i class="far fa-file-pdf middle aligned icon" style="font-size: xx-large;"></i>
+            <div class="content">
+              <h4 class="ui header">Display</h4>
+              <div class="description">Updated 11 days ago</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ui bottom attached tab inverted segment" data-tab="second">
+        <div class="ui inverted relaxed middle aligned divided list">
+          <div class="item">
+            <div class="right floated content">
+              <button class="tiny ui compact download firmware button">Download</button>
+              <div class="tiny ui left pointing dropdown compact icon button">
+                Report
+              </div>
+            </div>
+            <i class="far fa-file-pdf middle aligned icon" style="font-size: xx-large;"></i>
+            <div class="content floated">
+              <h4 class="disabled header">Display</h4>
+              <a class="disabled description">Release Notes</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="right floated content">
+              <button class="tiny ui compact download firmware button">Download</button>
+              <div class="tiny ui left pointing dropdown compact icon button">
+                Report
+              </div>
+            </div>
+            <i class="far fa-file-pdf middle aligned icon" style="font-size: xx-large;"></i>
+            <div class="content floated">
+              <h4 class="disabled header">Display</h4>
+              <a class="disabled description">Release Notes</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="right floated content">
+              <button class="tiny ui compact download firmware button">Download</button>
+              <div class="tiny ui left pointing dropdown compact icon button">
+                Report
+              </div>
+            </div>
+            <i class="far fa-file-pdf middle aligned icon" style="font-size: xx-large;"></i>
+            <div class="content floated">
+              <h4 class="disabled header">Display</h4>
+              <a class="disabled description">Release Notes</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="right floated content">
+              <button class="tiny ui compact download firmware button">Download</button>
+              <div class="tiny ui left pointing dropdown compact icon button">
+                Report
+              </div>
+            </div>
+            <i class="far fa-file-pdf middle aligned icon" style="font-size: xx-large;"></i>
+            <div class="content floated">
+              <h4 class="disabled header">Display</h4>
+              <a class="disabled description">Release Notes</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="right floated content">
+              <button class="tiny ui compact download firmware button">Download</button>
+              <div class="tiny ui left pointing dropdown compact icon button">
+                Report
+              </div>
+            </div>
+            <i class="far fa-file-pdf middle aligned icon" style="font-size: xx-large;"></i>
+            <div class="content floated">
+              <h4 class="disabled header">Display</h4>
+              <a class="disabled description">Release Notes</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="right floated content">
+              <button class="tiny ui compact download firmware button">Download</button>
+              <div class="tiny ui left pointing dropdown compact icon button">
+                Report
+              </div>
+            </div>
+            <i class="far fa-file-pdf middle aligned icon" style="font-size: xx-large;"></i>
+            <div class="content floated">
+              <h4 class="disabled header">Display</h4>
+              <a class="disabled description">Release Notes</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="right floated content">
+              <button class="tiny ui compact download firmware button">Download</button>
+              <div class="tiny ui left pointing dropdown compact icon button">
+                Report
+              </div>
+            </div>
+            <i class="far fa-file-pdf middle aligned icon" style="font-size: xx-large;"></i>
+            <div class="content floated">
+              <h4 class="header">Display</h4>
+              <a class="description">Release Notes</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="right floated content">
+              <button class="tiny ui compact download firmware button">Download</button>
+              <div class="tiny ui left pointing dropdown compact icon button">
+                Report
+              </div>
+            </div>
+            <i class="far fa-file-pdf middle aligned icon" style="font-size: xx-large;"></i>
+            <div class="content">
+              <h4 class="header">Display</h4>
+              <a class="description">Release Notes</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="right floated content">
+              <button class="tiny ui compact download firmware button">Download</button>
+              <div class="tiny ui left pointing dropdown compact icon button">
+                Report
+              </div>
+            </div>
+            <i class="far fa-file-pdf middle aligned icon" style="font-size: xx-large;"></i>
+            <div class="content">
+              <h4 class="header">Display</h4>
+              <a class="description">Release Notes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui download firmware modal">
+      <i class="close icon"></i>
+      <div class="ui header">
+        Download Notes
+        <div class="sub header">Display</div>
+      </div>
+      <div class="content">
+        <div class="ui ordered tablet stackable steps">
+          <div class="completed step">
+            <div class="content">
+              <div class="title">@aakarsh</div>
+              <div class="description"></div>
+            </div>
+          </div>
+          <div class="active step">
+            <div class="content">
+              <div class="title">Upload Date</div>
+              <div class="description">2016-06-16</div>
+            </div>
+          </div>
+          <div class="active step">
+            <div class="content">
+              <div class="title">College</div>
+              <div class="description">College Name</div>
+            </div>
+          </div>
+          <div class="active step">
+            <div class="content">
+              <div class="title">Number of Downloads</div>
+              <div class="description">646874</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="actions">
+        <div class="ui positive right labeled button">
+          Download
+        </div>
+      </div>
+    </div>
   </div>
+
+  <script>
+    $('.menu .item').tab();
+    $('.ui.dropdown').dropdown();
+
+    $('.ui.apply.preset.button').click(function () {
+      $('.ui.apply.preset.modal').modal('show');
+    });
+    $('#unchanged input:checkbox').change(function () {
+      // $this will contain a reference to the checkbox   
+      if (this.checked) {
+        // the checkbox was checked 
+        $('.unchanged.row').show();
+      } else {
+        // the checkbox was unchecked
+        $('.unchanged.row').hide();
+      }
+    });
+
+    $('.ui.download.firmware.button').click(function () {
+      $('.ui.download.firmware.modal').modal('show');
+    });
+
+    $('.ui.install.firmware.button').click(function () {
+      $('.ui.install.firmware.modal').modal('show');
+    });
+  </script>
 </body>
 
 </html>
