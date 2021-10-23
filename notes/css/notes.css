@@ -127,6 +127,9 @@ body {
   border-color: transparent !important;
   background: #222222b4 !important;
 }
+.ui.tiny.button, .ui.tiny.buttons .button, .ui.tiny.buttons .or {
+  margin: 5px;
+}
 
 table {
   border-radius: 50px;
