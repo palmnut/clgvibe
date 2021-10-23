@@ -117,6 +117,9 @@ body {
 .ui.text.container {
   max-width: 800px!important;
 }
+.ui.upward.dropdown>.menu {
+  bottom: -550% !important;
+}
 .ui.inverted.menu {
   background: #222222d8 !important;
 }
