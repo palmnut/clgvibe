@@ -26,12 +26,12 @@
 }
 
 body {
-  background-image: url("../assets/abstract2.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #eff4ff;
-  color: #000000;
+  background-image: url("../assets/abstract2.png") !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-color: #eff4ff !important;
+  color: #000000 !important;
   font-family: 'Source Sans Pro', sans-serif;
   display: flex;
   align-items: center;
@@ -110,6 +110,17 @@ body {
   background-color: #0d5ffd;
   color: #ffffff;
   border-color: #ffffff;
+}
+
+.ui.text.container {
+  max-width: 800px!important;
+}
+.ui.inverted.menu {
+  background: #222222d8 !important;
+}
+.ui.inverted.segment, .ui.primary.inverted.segment {
+  border-color: transparent !important;
+  background: #222222b4 !important;
 }
 
 table {
