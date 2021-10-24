@@ -144,20 +144,18 @@ body {
 .ui.tiny.button, .ui.tiny.buttons .button, .ui.tiny.buttons .or {
   margin: 5px;
 }
-/* .ui.steps .step.active {
+.ui.steps .step.active {
   cursor: auto;
-  margin-left: 5%;
   background: #f3f4f5;
 }
 .ui.ordered.steps {
-  counter-reset: ordered;
   background-color: #f3f4f5;
   margin-left: -2%;
-  width: 100%;
+  width: 104%;
 }
 .ui.ordered.steps .step:before {
   display: none !important;
- position: static;
+  position: static;
   text-align: center;
   content: counters(ordered,".");
   -webkit-align-self: middle;
@@ -168,7 +166,7 @@ body {
   counter-increment: ordered;
   font-family: inherit;
   font-weight: 700;
-} */
+}
 
 table {
   border-radius: 50px;
