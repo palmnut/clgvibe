@@ -31,7 +31,7 @@ body {
   background-attachment: fixed !important;
   background-size: cover !important;
   background-color: #eff4ff !important;
-  color: #000000 !important;
+  color: #00000099 !important;
   font-family: 'Source Sans Pro', sans-serif;
   display: flex;
   align-items: center;
@@ -87,7 +87,7 @@ body {
   border-bottom-left-radius: 70px;
   background-color: #0d5ffd;
   border-right: none;
-  border-color: #f5f5f500;
+  border-color: #f5f5f500 !important;
   float: right;
   width: 20%;
   padding: 10px;
@@ -99,9 +99,9 @@ body {
 .search-area .filter button {
   border-radius: 70px;
   background-color: transparent;
-  color: #000000;
+  color: #00000099;
   padding: 10px 20px;
-  border-color: #1d2545;
+  border-color: #00000099;
   font-size: 17px;
   cursor: pointer;
 }
@@ -119,15 +119,56 @@ body {
   bottom: -550% !important;
 }
 .ui.inverted.menu {
-  background: #222222d8 !important;
+  background: #555050da !important;
+}
+.ui.inverted.list .list>.item .header, .ui.inverted.list>.item .header {
+  color: #222 !important;
+}
+.ui.inverted.list .list>.item .description, .ui.inverted.list>.item .description {
+  color: #00000099 !important;
+}
+.ui.list .list>.item>i.icon, .ui.list>.item>i.icon {
+  display: table-cell;
+  margin: 0;
+  color: #222;
+  padding-top: .07142857em;
+  padding-right: .28571429em;
+  vertical-align: top;
+  -webkit-transition: color .1s ease;
+  transition: color .1s ease;
 }
 .ui.inverted.segment, .ui.primary.inverted.segment {
   border-color: transparent !important;
-  background: #222222b4 !important;
+  background: #ffffff9c !important;
 }
 .ui.tiny.button, .ui.tiny.buttons .button, .ui.tiny.buttons .or {
   margin: 5px;
 }
+/* .ui.steps .step.active {
+  cursor: auto;
+  margin-left: 5%;
+  background: #f3f4f5;
+}
+.ui.ordered.steps {
+  counter-reset: ordered;
+  background-color: #f3f4f5;
+  margin-left: -2%;
+  width: 100%;
+}
+.ui.ordered.steps .step:before {
+  display: none !important;
+ position: static;
+  text-align: center;
+  content: counters(ordered,".");
+  -webkit-align-self: middle;
+  -ms-flex-item-align: middle;
+  align-self: middle;
+  margin-right: 1rem;
+  font-size: 2.5em;
+  counter-increment: ordered;
+  font-family: inherit;
+  font-weight: 700;
+} */
 
 table {
   border-radius: 50px;
