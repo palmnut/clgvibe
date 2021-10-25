@@ -26,12 +26,12 @@
 }
 
 body {
-  background-image: url("../assets/abstract2.png") !important;
+  /* background-image: url("../assets/abstract2.png") !important;
   background-repeat: no-repeat !important;
   background-attachment: fixed !important;
-  background-size: cover !important;
+  background-size: cover !important; */
   background-color: #eff4ff !important;
-  color: #00000099 !important;
+  color: #555 !important;
   font-family: 'Source Sans Pro', sans-serif;
   display: flex;
   align-items: center;
@@ -45,7 +45,9 @@ body {
   box-shadow: 0 5px 10px #d8d8d8;
   padding: 100px;
   margin: auto;
-  width: 1000px;
+  width: 100%;
+  margin-top: 1%;
+  padding: 20px;
 }
 
 .user {
