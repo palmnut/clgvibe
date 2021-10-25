@@ -132,7 +132,7 @@ body {
 .ui.list .list>.item>i.icon, .ui.list>.item>i.icon {
   display: table-cell;
   margin: 0;
-  color: #222;
+  color: #e20505;
   padding-top: .07142857em;
   padding-right: .28571429em;
   vertical-align: top;
