@@ -115,21 +115,29 @@ body {
 }
 
 .ui.text.container {
-  max-width: 800px!important;
+  max-width: 800px !important;
 }
+
 .ui.upward.dropdown>.menu {
   bottom: -550% !important;
 }
+
 .ui.inverted.menu {
   background: #444 !important;
 }
-.ui.inverted.list .list>.item .header, .ui.inverted.list>.item .header {
+
+.ui.inverted.list .list>.item .header,
+.ui.inverted.list>.item .header {
   color: #222 !important;
 }
-.ui.inverted.list .list>.item .description, .ui.inverted.list>.item .description {
+
+.ui.inverted.list .list>.item .description,
+.ui.inverted.list>.item .description {
   color: #00000099 !important;
 }
-.ui.list .list>.item>i.icon, .ui.list>.item>i.icon {
+
+.ui.list .list>.item>i.icon,
+.ui.list>.item>i.icon {
   display: table-cell;
   margin: 0;
   color: #e20505;
@@ -139,7 +147,21 @@ body {
   -webkit-transition: color .1s ease;
   transition: color .1s ease;
 }
-.ui.inverted.segment, .ui.primary.inverted.segment {
+
+.ui.list .list>.item>i.icon,
+.ui.list>.item>i.fa-file-alt {
+  display: table-cell;
+  margin: 0;
+  color: #3879fc;
+  padding-top: .07142857em;
+  padding-right: .28571429em;
+  vertical-align: top;
+  -webkit-transition: color .1s ease;
+  transition: color .1s ease;
+}
+
+.ui.inverted.segment,
+.ui.primary.inverted.segment {
   border-color: transparent !important;
   background: #ffffff9c !important;
   /* background-image: url("../assets/notes.png") !important;
@@ -149,23 +171,29 @@ body {
   background-position-x: 50% !important;
   background-size: contain !important; */
 }
-.ui.tiny.button, .ui.tiny.buttons .button, .ui.tiny.buttons .or {
+
+.ui.tiny.button,
+.ui.tiny.buttons .button,
+.ui.tiny.buttons .or {
   margin: 5px;
 }
+
 .ui.steps .step.active {
   cursor: auto;
   background: #f3f4f5;
 }
+
 .ui.ordered.steps {
   background-color: #f3f4f5;
   margin-left: -2%;
   width: 104%;
 }
+
 .ui.ordered.steps .step:before {
   display: none !important;
   position: static;
   text-align: center;
-  content: counters(ordered,".");
+  content: counters(ordered, ".");
   -webkit-align-self: middle;
   -ms-flex-item-align: middle;
   align-self: middle;
