@@ -144,7 +144,7 @@ body {
   background: #ffffff9c !important;
   background-image: url("../assets/notes.png") !important;
   background-repeat: no-repeat !important;
-  /* background-attachment: fixed !important; */
+  background-attachment: fixed !important;
   background-position-y: 50% !important;
   background-position-x: 50% !important;
   background-size: contain !important;
