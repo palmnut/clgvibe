@@ -121,7 +121,7 @@ body {
   bottom: -550% !important;
 }
 .ui.inverted.menu {
-  background: #555050da !important;
+  background: #444 !important;
 }
 .ui.inverted.list .list>.item .header, .ui.inverted.list>.item .header {
   color: #222 !important;
