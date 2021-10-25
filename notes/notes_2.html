@@ -14,6 +14,16 @@
 <body>
   <div class="wrapper">
     <header>Upload Notes</header>
+    <div class="content">
+      <div class="box">
+        <label>File Name</label>
+        <input type="text" name="" placeholder="File Name">
+      </div>
+      <div class="box">
+        <label>Number of Pages</label>
+        <input type="text" name="" placeholder="Number of Pages">
+      </div>
+    </div>
     <form action="#">
       <input class="file-input" type="file" name="file" hidden>
       <i class="fas fa-cloud-upload-alt"></i>
@@ -21,6 +31,9 @@
     </form>
     <section class="progress-area"></section>
     <section class="uploaded-area"></section>
+		<div class="box" style="margin-top: 30px;">
+			<input type="submit" name="submit" value="Submit">
+		</div> 
   </div>
 
 
