@@ -142,6 +142,12 @@ body {
 .ui.inverted.segment, .ui.primary.inverted.segment {
   border-color: transparent !important;
   background: #ffffff9c !important;
+  background-image: url("../assets/notes.png") !important;
+  background-repeat: no-repeat !important;
+  /* background-attachment: fixed !important; */
+  background-position-y: 50% !important;
+  background-position-x: 50% !important;
+  background-size: contain !important;
 }
 .ui.tiny.button, .ui.tiny.buttons .button, .ui.tiny.buttons .or {
   margin: 5px;
