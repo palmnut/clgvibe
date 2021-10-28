@@ -55,7 +55,7 @@ body {
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 18px;
-  margin-left: 50%;
+  text-align: center;
 }
 
 .user i {
@@ -214,6 +214,14 @@ body {
   width: 104%;
 }
 
+.ui.modal {
+  text-align: center !important;
+}
+
+.ui.modal>.actions {
+  text-align: center !important;
+}
+
 .ui.modal>.content {
   display: block;
   width: 100%;
@@ -222,12 +230,8 @@ body {
   padding: 1.5rem;
   background: #eff4ff;
   border: none;
+  text-align: left !important;
   box-shadow: inset -2px -2px 6px rgb(59 59 59 / 18%), inset 2px 2px 6px rgb(129 154 181 / 43%);
-}
-
-.ui.positive.button,
-.ui.positive.buttons .button {
-  margin-right: 45%;
 }
 
 .ui.ordered.steps .step:before {
@@ -349,15 +353,6 @@ table tbody tr:hover .delete {
     padding: 20px;
   }
 
-  .user {
-    margin-left: 40%;
-  }
-
-  .ui.positive.button,
-  .ui.positive.buttons .button {
-    margin-right: 40%;
-  }
-
   table tbody tr .delete {
     opacity: 1;
   }
@@ -368,20 +363,6 @@ table tbody tr:hover .delete {
   }
 }
 
-
-@media (max-width: 490px) {
-
-  .ui.positive.button,
-  .ui.positive.buttons .button {
-    margin-right: 35%;
-  }
-
-  .user {
-    margin-left: 35%;
-  }
-
-}
-
 @media (max-width: 350px) {
   .search-area .filter button {
     margin-left: 10%;
@@ -390,15 +371,6 @@ table tbody tr:hover .delete {
 }
 
 @media (max-width: 310px) {
-
-  .ui.positive.button,
-  .ui.positive.buttons .button {
-    margin-right: 25%;
-  }
-
-  .user {
-    margin-left: 25%;
-  }
 
   .search-area {
     margin-left: -23%;
