@@ -400,7 +400,7 @@ button.btn:hover {
 
 .card1 .footer .share {
   color: #333;
-  margin-right: -10%;
+  /* margin-right: -10%; */
   flex: 0 0 18%;
 }
 
@@ -545,7 +545,7 @@ button.btn:hover {
 
 .card .footer .share {
   color: #333;
-  margin-right: -10%;
+  /* margin-right: -10%; */
   flex: 0 0 18%;
 }
 
