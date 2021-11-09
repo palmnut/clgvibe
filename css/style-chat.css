@@ -94,6 +94,53 @@ body {
 /* ===================================
     Main
 ====================================== */
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.label {
+    background-color: #eff4ff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    height: 15px;
+    width: 30px;
+    transform: scale(1.5);
+}
+
+.label .ball {
+    background-color: #222;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5px;
+    left: 1.5px;
+    height: 12px;
+    width: 12px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked+.label .ball {
+    transform: translateX(15px);
+}
+
+
+.fa-moon {
+    color: #f1c40f;
+    font-size: 8px;
+}
+
+.fa-sun {
+    color: #f39c12;
+    font-size: 8px;
+}
+
 .messages-page {
     height: 100vh;
 }
@@ -831,7 +878,9 @@ body {
     background-color: var(--colour-third);
 }
 
-.svg-icon {
+/* I used svgs first. So, this is for svgs. */
+
+/* .svg-icon {
     width: 70%;
 }
 
@@ -887,4 +936,4 @@ body {
 .svg-icon--dark-mode path,
 .svg-icon--dark-mode circle {
     fill: var(--colour-primary);
-}
+} */
