@@ -270,6 +270,11 @@ main .blog-post .blog-content{
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
 
+main .blog-post .blog-content img{
+    width: 350px !important;
+    height: 250px !important;
+}
+
 main .blog-content .blog-title{
     padding: 2rem 0;
 }
