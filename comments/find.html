@@ -3,17 +3,171 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<title>Find friends</title>
 	<link rel="shortcut icon" type="image/x-icon" href="./assets/logo (1).png" />
-	<link rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<!-- OLD -->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" /> -->
+
+
 	<link rel="stylesheet" href="./css/find.css">
 </head>
 
 <body>
-	<div class="container-fluid">
+
+	<!--==================================
+  New
+====================================== -->
+
+
+	<div class="col-12 col-md-4 col-lg-5 col-xl-3 px-0 messages-page__list-scroll">
+
+		<div class="messages-page__header mb-0 px-4 pt-3 pb-3">
+			<span class="messages-page__title">Find friends</span>
+			<div class="messages-page__dark-mode-toogler">
+				<input type="checkbox" class="checkbox" id="AH" />
+				<label class="label" for="AH">
+					<i class="fas fa-moon"></i>
+					<i class="fas fa-sun"></i>
+					<div class="ball"></div>
+				</label>
+			</div>
+		</div>
+		<div class="messages-page__search mb-0 px-3 pb-3">
+			<div class="custom-form__search-wrapper">
+				<input type="text" class="form-control custom-form" id="search" placeholder="Search..."
+					autocomplete="off">
+				<button type="submit" class="custom-form__search-submit">
+					<i class="fas fa-search"></i>
+				</button>
+			</div>
+		</div>
+
+		<ul class="messages-page__list pb-5 px-1 px-md-3">
+			<li class="messaging-member messaging-member--online messaging-member--online">
+				<div class="messaging-member__wrapper">
+					<div class="messaging-member__avatar">
+						<img src="./assets/profile.svg.webp" alt="Aakarsh Sharma" loading="lazy">
+						<div class="user-status"></div>
+					</div>
+
+					<span class="messaging-member__name">Aakarsh Sharma</span>
+					<span class="messaging-member__message">Some kind of message</span>
+				</div>
+			</li>
+			<li class="messaging-member messaging-member--online messaging-member--online">
+				<div class="messaging-member__wrapper">
+					<div class="messaging-member__avatar">
+						<img src="./assets/5953.JPG" alt="Aakarsh Sharma" loading="lazy">
+						<div class="user-status"></div>
+					</div>
+
+					<span class="messaging-member__name">Aakarsh Sharma</span>
+					<span class="messaging-member__message">Some kind of message</span>
+				</div>
+			</li>
+			<li class="messaging-member">
+				<div class="messaging-member__wrapper">
+					<div class="messaging-member__avatar">
+						<img src="./assets/5953.JPG" alt="Aakarsh Sharma" loading="lazy">
+						<div class="user-status"></div>
+					</div>
+
+					<span class="messaging-member__name">Aakarsh Sharma</span>
+					<span class="messaging-member__message">Some kind of message</span>
+				</div>
+			</li>
+			<li class="messaging-member messaging-member--online">
+				<div class="messaging-member__wrapper">
+					<div class="messaging-member__avatar">
+						<img src="./assets/5953.JPG" alt="Aakarsh Sharma" loading="lazy">
+						<div class="user-status"></div>
+					</div>
+
+					<span class="messaging-member__name">Aakarsh Sharma</span>
+					<span class="messaging-member__message">Some kind of message</span>
+				</div>
+			</li>
+			<li class="messaging-member messaging-member--online">
+				<div class="messaging-member__wrapper">
+					<div class="messaging-member__avatar">
+						<img src="./assets/5953.JPG" alt="Aakarsh Sharma" loading="lazy">
+						<div class="user-status"></div>
+					</div>
+
+					<span class="messaging-member__name">Aakarsh Sharma</span>
+					<span class="messaging-member__message">Some kind of message</span>
+				</div>
+			</li>
+			<li class="messaging-member">
+				<div class="messaging-member__wrapper">
+					<div class="messaging-member__avatar">
+						<img src="./assets/5953.JPG" alt="Aakarsh Sharma" loading="lazy">
+						<div class="user-status"></div>
+					</div>
+
+					<span class="messaging-member__name">Aakarsh Sharma</span>
+					<span class="messaging-member__message">Some kind of message</span>
+				</div>
+			</li>
+			<li class="messaging-member">
+				<div class="messaging-member__wrapper">
+					<div class="messaging-member__avatar">
+						<img src="./assets/5953.JPG" alt="Aakarsh Sharma" loading="lazy">
+						<div class="user-status"></div>
+					</div>
+
+					<span class="messaging-member__name">Aakarsh Sharma</span>
+					<span class="messaging-member__message">Some kind of message</span>
+				</div>
+			</li>
+			<li class="messaging-member  messaging-member--online">
+				<div class="messaging-member__wrapper">
+					<div class="messaging-member__avatar">
+						<img src="./assets/5953.JPG" alt="Aakarsh Sharma" loading="lazy">
+						<div class="user-status"></div>
+					</div>
+
+					<span class="messaging-member__name">Aakarsh Sharma</span>
+					<span class="messaging-member__message">Some kind of message</span>
+				</div>
+			</li>
+			<li class="messaging-member">
+				<div class="messaging-member__wrapper">
+					<div class="messaging-member__avatar">
+						<img src="./assets/5953.JPG" alt="Aakarsh Sharma" loading="lazy">
+						<div class="user-status"></div>
+					</div>
+
+					<span class="messaging-member__name">Aakarsh Sharma</span>
+					<span class="messaging-member__message">Some kind of message</span>
+				</div>
+		</ul>
+	</div>
+
+
+	<!--==================================
+  New
+====================================== -->
+
+
+
+
+
+
+	<!--==================================
+  OLD
+====================================== -->
+
+
+
+	<!-- <div class="container-fluid">
 		<div class="row" id="mcl_app">
 
 			<section class="col-12" id="mcl_header_bar">
@@ -194,7 +348,96 @@
 				</div>
 			</section>
 		</div>
-	</div>
+	</div> -->
+
+	<!--==================================
+  OLD
+====================================== -->
+
+
+
+
+	<!--==================================
+  New
+====================================== -->
+
+
+	<!-- Javascript -->
+	<script>
+		$chat = $(".chat");
+		$profile = $(".user-profile");
+
+		/* ===================================
+			Screen resize handler
+		====================================== */
+		const smallDevice = window.matchMedia("(max-width: 767px)");
+		const largeScreen = window.matchMedia("(max-width: 1199px)");
+		smallDevice.addEventListener("change", handleDeviceChange);
+		largeScreen.addEventListener("change", handleLargeScreenChange);
+
+		handleDeviceChange(smallDevice);
+		handleLargeScreenChange(largeScreen);
+
+		function handleDeviceChange(e) {
+			if (e.matches) chatMobile();
+			else chatDesktop();
+		}
+
+		function handleLargeScreenChange(e) {
+			if (e.matches) profileToogleOnLarge();
+			else profileExtraLarge();
+		}
+
+		function chatMobile() {
+			$chat.addClass("chat--mobile");
+		}
+
+		function chatDesktop() {
+			$chat.removeClass("chat--mobile");
+		}
+
+		function profileToogleOnLarge() {
+			$profile.addClass("user-profile--large");
+		}
+
+		function profileExtraLarge() {
+			$profile.removeClass("user-profile--large");
+		}
+
+		/* ===================================
+			Events
+		====================================== */
+
+		$(".messaging-member").click(function () {
+			$chat.fadeIn();
+			$chat.addClass("chat--show");
+		});
+
+		$(".chat__previous").click(function () {
+			$chat.removeClass("chat--show");
+		});
+
+		$(".chat__details").click(function () {
+			$profile.fadeIn();
+			$profile.addClass("user-profile--show");
+		});
+
+		$(".user-profile__close").click(function () {
+			$profile.removeClass("user-profile--show");
+		});
+
+		$("#AH").click(function () {
+			$("body").toggleClass("dark-mode");
+		});
+
+
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<!--==================================
+  New
+====================================== -->
+
 </body>
 
 </html>
