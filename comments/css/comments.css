@@ -12,7 +12,7 @@
 }
 
 ::selection {
-  background-color: #fd5f03e0;
+  background-color: #0d5ffd;
 }
 
 ::-webkit-scrollbar {
@@ -22,8 +22,11 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #fd5f03de;
+  width: 6px;
+  border-radius: 50px;
+  background-color: #0d5ffd;
 }
+
 
 a {
   color: #03658c;
