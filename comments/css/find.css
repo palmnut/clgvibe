@@ -78,10 +78,12 @@
     padding: 0;
     box-sizing: border-box;
     user-zoom: none !important;
+    text-decoration: none !important;
 }
 
 html {
     scroll-behavior: smooth;
+    text-decoration: none !important;
 }
 
 body {
@@ -105,6 +107,7 @@ body {
 
 .messages-page {
     height: 100vh;
+    text-decoration: none !important;
 }
 
 .messages-page__header {
