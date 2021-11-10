@@ -410,7 +410,7 @@ span {
     top: 20%;
     border-radius: 50%;
     background: #637ae4;
-    animation: animation-1 2s linear infinite;
+    animation: animation-1 1s linear infinite;
 }
 
 .header-hero .shape.shape-2 {
@@ -420,7 +420,7 @@ span {
     bottom: 40px;
     border-radius: 50%;
     background: #0898e7;
-    animation: animation-1 2s linear infinite;
+    animation: animation-1 1s linear infinite;
 }
 
 .header-hero .shape.shape-3 {
@@ -430,7 +430,7 @@ span {
     bottom: 25%;
     border-radius: 50%;
     background: #ff846f;
-    animation: animation-1 2s linear infinite;
+    animation: animation-1 1s linear infinite;
 }
 
 .header-hero .shape.shape-4 {
@@ -440,7 +440,7 @@ span {
     top: 175px;
     border-radius: 50%;
     background: #4ebaf5;
-    animation: animation-1 2s linear infinite;
+    animation: animation-1 1s linear infinite;
 }
 
 .header-hero .shape.shape-5 {
@@ -450,7 +450,7 @@ span {
     bottom: 20%;
     border-radius: 50%;
     background: #ff5b56;
-    animation: animation-1 2s linear infinite;
+    animation: animation-1 1s linear infinite;
 }
 
 .header-hero .shape.shape-6 {
@@ -460,7 +460,7 @@ span {
     bottom: 70%;
     border-radius: 50%;
     background: #4ebaf5;
-    animation: animation-1 2s linear infinite;
+    animation: animation-1 1s linear infinite;
 }
 
 .header-hero-content {
@@ -514,7 +514,7 @@ span {
     border-radius: 50%;
     background-color: rgba(8, 152, 231, .8);
     z-index: -9;
-    animation: video 2s linear infinite;
+    animation: video 1s linear infinite;
 }
 
 .header-image {
@@ -876,7 +876,7 @@ span {
     background-color: #fe5f59;
     border-radius: 50%;
     opacity: .55;
-    animation: animation-1 2s linear infinite;
+    animation: animation-1 1s linear infinite;
 
 }
 
@@ -888,7 +888,7 @@ span {
     background-color: #33c8c1;
     border-radius: 50%;
     opacity: .55;
-    animation: animation-1 2s linear infinite;
+    animation: animation-1 1s linear infinite;
 
 }
 
@@ -900,7 +900,7 @@ span {
     background-color: #361cc1;
     border-radius: 50%;
     opacity: .55;
-    animation: animation-1 2s linear infinite;
+    animation: animation-1 1s linear infinite;
 
 }
 
@@ -912,7 +912,7 @@ span {
     background-color: #eba31a;
     border-radius: 50%;
     opacity: .55;
-    animation: animation-1 2s linear infinite;
+    animation: animation-1 1s linear infinite;
 
 }
 
@@ -924,7 +924,7 @@ span {
     background-color: #e29e19;
     border-radius: 50%;
     opacity: .55;
-    animation: animation-1 2s linear infinite;
+    animation: animation-1 1s linear infinite;
 
 }
 
@@ -936,7 +936,7 @@ span {
     background-color: #b60d81;
     border-radius: 50%;
     opacity: .55;
-    animation: animation-1 2s linear infinite;
+    animation: animation-1 1s linear infinite;
 
 }
 
