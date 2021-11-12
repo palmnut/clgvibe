@@ -2,18 +2,58 @@
 <html lang="en">
 
 <head>
+
+
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>College</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/logo (1).png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/find.css">
+
+<!-- OLD -->
+    <!-- <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./css/jump.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>College</title>
     <meta name="robots" content="index, follow">
-    <link rel="icon" type="image/svg-xml" href="./assets/logo (1).png" />
+    <link rel="icon" type="image/svg-xml" href="./assets/logo (1).png" /> -->
+
 </head>
 
+<Style>
+    .btn {
+        background-color: #0d5ffd !important;
+        border: 0;
+        border-radius: 5px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+        color: #fff;
+        font-size: 16px;
+        padding: 12px 25px;
+        position: absolute;
+        /* bottom: 30px; */
+        right: 30px;
+        text-decoration: none;
+        letter-spacing: 1px;
+        transition: 0.8s;
+    }
+
+    .btn:hover {
+        background-color: #ffffffd2 !important;
+        color: #000000bd;
+        transition: 0.8s;
+    }
+</Style>
+
 <body>
-    <div class="wrapper">
+
+    <!-- OLD -->
+    <!-- <div class="wrapper">
         <div class="profile-card js-profile-card">
             <div class="profile-card__img">
                 <img src="./assets/mcm.png" alt="profile" style="width: 150px; height: 150px;">
@@ -39,7 +79,7 @@
         <div class="course">
             <div class="course-preview">
                 <img src="./assets/dn.jpg" alt="profile" style="width: 200px; border-radius: 50%; margin-right: 100px;">
-                <!-- <a href="#">Meerut College Meerut</a> -->
+                <a href="#">Meerut College Meerut</a>
             </div>
             <div class="course-info">
 
@@ -52,7 +92,7 @@
             <div class="course-preview">
                 <img src="./assets/miet.jpg" alt="profile"
                     style="width: 200px; border-radius: 50%; margin-right: 100px;">
-                <!-- <a href="#">Meerut College Meerut</a> -->
+                <a href="#">Meerut College Meerut</a>
             </div>
 
             <div class="course-info">
@@ -66,7 +106,7 @@
             <div class="course-preview">
                 <img src="./assets/subharti.jpg" alt="profile"
                     style="width: 200px; border-radius: 50%; margin-right: 100px;">
-                <!-- <a href="#">Meerut College Meerut</a> -->
+                <a href="#">Meerut College Meerut</a>
             </div>
             <div class="course-info">
 
@@ -75,7 +115,207 @@
                 <button class="btn">JUMP</button>
             </div>
         </div>
+    </div> -->
+
+
+
+
+    <div class="col-12 col-md-4 col-lg-5 col-xl-3 px-0 messages-page__list-scroll">
+
+        <div class="messages-page__header mb-0 px-4 pt-3 pb-3">
+            <span class="messages-page__title">Meerut College Meerut</span>
+            <div class="messages-page__dark-mode-toogler">
+                <input type="checkbox" class="checkbox" id="AH" />
+                <label class="label" for="AH">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <div class="ball"></div>
+                </label>
+            </div>
+        </div>
+        <div class="messages-page__search mb-0 px-3 pb-3">
+            <div class="custom-form__search-wrapper">
+                <input type="text" class="form-control custom-form" id="search" placeholder="Search..."
+                    autocomplete="off">
+                <button type="submit" class="custom-form__search-submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+
+        <ul class="messages-page__list pb-5 px-1 px-md-3">
+            <a href="#">
+                <li class="messaging-member messaging-member--online messaging-member--online">
+                    <div class="messaging-member__wrapper">
+                        <div class="messaging-member__avatar">
+                            <img src="./assets/dn.jpg" alt="DN COllege" loading="lazy">
+                            <div class="user-status"></div>
+                        </div>
+
+                        <span class="messaging-member__name">DN COllege</span>
+                        <span class="messaging-member__message">CCSU</span>
+                        <button class="btn">JUMP</button>
+                    </div>
+                </li>
+            </a>
+            <a href="#">
+                <li class="messaging-member messaging-member--online messaging-member--online">
+                    <div class="messaging-member__wrapper">
+                        <div class="messaging-member__avatar">
+                            <img src="./assets/miet.jpg" alt="MIET College" loading="lazy">
+                            <div class="user-status"></div>
+                        </div>
+
+                        <span class="messaging-member__name">MIET College</span>
+                        <span class="messaging-member__message">CCSU</span>
+                        <button class="btn">JUMP</button>
+                    </div>
+                </li>
+            </a>
+            <a href="#">
+                <li class="messaging-member messaging-member--online messaging-member--online">
+                    <div class="messaging-member__wrapper">
+                        <div class="messaging-member__avatar">
+                            <img src="./assets/subharti.jpg" alt="Shaubhart" loading="lazy">
+                            <div class="user-status"></div>
+                        </div>
+
+                        <span class="messaging-member__name">Shaubhart</span>
+                        <span class="messaging-member__message">CCSU</span>
+                        <button class="btn">JUMP</button>
+                    </div>
+                </li>
+            </a>
+            <a href="#">
+                <li class="messaging-member messaging-member--online messaging-member--online">
+                    <div class="messaging-member__wrapper">
+                        <div class="messaging-member__avatar">
+                            <img src="./assets/subharti.jpg" alt="Shaubhart" loading="lazy">
+                            <div class="user-status"></div>
+                        </div>
+
+                        <span class="messaging-member__name">Shaubhart</span>
+                        <span class="messaging-member__message">CCSU</span>
+                        <button class="btn">JUMP</button>
+                    </div>
+                </li>
+            </a>
+            <a href="#">
+                <li class="messaging-member messaging-member--online messaging-member--online">
+                    <div class="messaging-member__wrapper">
+                        <div class="messaging-member__avatar">
+                            <img src="./assets/subharti.jpg" alt="Shaubhart" loading="lazy">
+                            <div class="user-status"></div>
+                        </div>
+
+                        <span class="messaging-member__name">Shaubhart</span>
+                        <span class="messaging-member__message">CCSU</span>
+                        <button class="btn">JUMP</button>
+                    </div>
+                </li>
+            </a>
+            <a href="#">
+                <li class="messaging-member messaging-member--online messaging-member--online">
+                    <div class="messaging-member__wrapper">
+                        <div class="messaging-member__avatar">
+                            <img src="./assets/subharti.jpg" alt="Shaubhart" loading="lazy">
+                            <div class="user-status"></div>
+                        </div>
+
+                        <span class="messaging-member__name">Shaubhart</span>
+                        <span class="messaging-member__message">CCSU</span>
+                        <button class="btn">JUMP</button>
+                    </div>
+                </li>
+            </a>
+            <a href="#">
+                <li class="messaging-member messaging-member--online messaging-member--online">
+                    <div class="messaging-member__wrapper">
+                        <div class="messaging-member__avatar">
+                            <img src="./assets/subharti.jpg" alt="Shaubhart" loading="lazy">
+                            <div class="user-status"></div>
+                        </div>
+
+                        <span class="messaging-member__name">Shaubhart</span>
+                        <span class="messaging-member__message">CCSU</span>
+                        <button class="btn">JUMP</button>
+                    </div>
+                </li>
+            </a>
+        </ul>
     </div>
+
+    <!-- Javascript -->
+    <script>
+        $chat = $(".chat");
+        $profile = $(".user-profile");
+
+        /* ===================================
+            Screen resize handler
+        ====================================== */
+        const smallDevice = window.matchMedia("(max-width: 767px)");
+        const largeScreen = window.matchMedia("(max-width: 1199px)");
+        smallDevice.addEventListener("change", handleDeviceChange);
+        largeScreen.addEventListener("change", handleLargeScreenChange);
+
+        handleDeviceChange(smallDevice);
+        handleLargeScreenChange(largeScreen);
+
+        function handleDeviceChange(e) {
+            if (e.matches) chatMobile();
+            else chatDesktop();
+        }
+
+        function handleLargeScreenChange(e) {
+            if (e.matches) profileToogleOnLarge();
+            else profileExtraLarge();
+        }
+
+        function chatMobile() {
+            $chat.addClass("chat--mobile");
+        }
+
+        function chatDesktop() {
+            $chat.removeClass("chat--mobile");
+        }
+
+        function profileToogleOnLarge() {
+            $profile.addClass("user-profile--large");
+        }
+
+        function profileExtraLarge() {
+            $profile.removeClass("user-profile--large");
+        }
+
+        /* ===================================
+            Events
+        ====================================== */
+
+        $(".messaging-member").click(function () {
+            $chat.fadeIn();
+            $chat.addClass("chat--show");
+        });
+
+        $(".chat__previous").click(function () {
+            $chat.removeClass("chat--show");
+        });
+
+        $(".chat__details").click(function () {
+            $profile.fadeIn();
+            $profile.addClass("user-profile--show");
+        });
+
+        $(".user-profile__close").click(function () {
+            $profile.removeClass("user-profile--show");
+        });
+
+        $("#AH").click(function () {
+            $("body").toggleClass("dark-mode");
+        });
+
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 </body>
 
