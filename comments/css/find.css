@@ -474,3 +474,26 @@ body {
         max-width: 100%;
     }
 }
+
+
+.btn {
+    background-color: #0d5ffd !important;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 12px;
+    padding: 7px 15px;
+    position: absolute;
+    /* bottom: 30px; */
+    right: 30px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: 0.8s;
+}
+
+.btn:hover {
+    background-color: #ffffffd2 !important;
+    color: #000000bd;
+    transition: 0.8s;
+}
