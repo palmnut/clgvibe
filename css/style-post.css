@@ -303,7 +303,7 @@ button.btn:hover {
 
 /* 1st card */
 
-.card1 {
+..card1 {
   margin-top: 30%;
   width: 100%;
   height: 100%;
@@ -348,13 +348,15 @@ button.btn:hover {
   font-weight: 600;
 }
 
-.card .detail .name {
+.card1 .detail .name {
   font-weight: 700;
+  color: #111;
 }
 
 .card1 .posted {
   font-size: 10px;
   padding-top: 3px;
+  color: #222;
 }
 
 .card1 .desc {
@@ -495,11 +497,13 @@ button.btn:hover {
 
 .card .detail .name {
   font-weight: 700;
+  color: #111;
 }
 
 .card .posted {
   font-size: 10px;
   padding-top: 3px;
+  color: #222;
 }
 
 .card .desc {
