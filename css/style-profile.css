@@ -264,10 +264,11 @@ header .navbar ul li a:hover{
 
 .find .profile-pic {
   position: relative;
+  margin-left: 20%;
   background-position: 50%;
   background-size: cover;
-  height: 40px;
-  width: 40px;
+  height: 70px;
+  width: 70px;
   border-radius: 50%;
 }
 
@@ -285,7 +286,7 @@ header .navbar ul li a:hover{
   content: '';
   display: inline-block;
   border: 3px solid #ddd;
-  padding: 24px;
+  padding: 35px;
   border-radius: 50%;
   position: absolute;
   top: 50%;
@@ -294,7 +295,7 @@ header .navbar ul li a:hover{
 }
 
 .find .person .name {
-  font-size: 12px;
+  font-size: 20px;
   padding-top: 20px;
 }
 
@@ -307,13 +308,13 @@ header .navbar ul li a:hover{
   color: #000;
   width: 60px;
   display: inline-block;
-  font-size: 10px;
+  font-size: 12px;
   border-radius: 50px;
   padding: 1px 0;
-  font-weight: 600;
+  font-weight: 500;
   position: absolute;
-  top: 55%;
-  left: 45%;
+  top: 75%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
