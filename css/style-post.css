@@ -423,29 +423,29 @@ button.btn:hover {
 .card1 .footer .like span {
   position: absolute;
   bottom: -50px;
-  left:0px;
-  right:0;
+  left: 0px;
+  right: 0;
   visibility: hidden;
   font-family: var(--Livvic);
-  transition:.6s;
-  z-index:-2;
-  font-size:2px;
+  transition: .6s;
+  z-index: -2;
+  font-size: 2px;
   font-weight: 700;
-  color:transparent;
-  font-weight:400;
+  color: transparent;
+  font-weight: 400;
 }
 
 .card1 .footer .like i.press {
   animation: size .4s;
-  color:#0099ff;
+  color: #0099ff;
 }
 
 .card1 .footer .like span.press {
-  bottom:80px;
-  font-size:30px;
+  bottom: 80px;
+  font-size: 30px;
   width: 80px;
   font-family: var(--Livvic);
-  visibility:visible;
+  visibility: visible;
   animation: fade 1s;
 }
 
@@ -570,38 +570,41 @@ button.btn:hover {
 .card .footer .like span {
   position: absolute;
   bottom: -50px;
-  left:0px;
-  right:0;
+  left: 0px;
+  right: 0;
   visibility: hidden;
-  transition:.6s;
+  transition: .6s;
   font-family: var(--Livvic);
-  z-index:-2;
-  font-size:2px;
-  color:transparent;
-  font-weight:700;
+  z-index: -2;
+  font-size: 2px;
+  color: transparent;
+  font-weight: 700;
 }
 
 .card .footer .like i.press {
   animation: size .4s;
-  color:#0099ff;
+  color: #0099ff;
 }
 
 .card .footer .like span.press {
-  bottom:80px;
-  font-size:30px;
+  bottom: 80px;
+  font-size: 30px;
   font-family: var(--Livvic);
   width: 80px;
-  visibility:visible;
+  visibility: visible;
   animation: fade 1s;
 }
 
 @keyframes fade {
-  0% {color:transparent;
+  0% {
+    color: transparent;
     background-color: transparent;
   }
-  50% {color:#0099ff; 
-    font-weight: 700; 
-    background-color: #ffffff75; 
+
+  50% {
+    color: #0099ff;
+    font-weight: 700;
+    background-color: #ffffff75;
     width: 80px;
     font-family: var(--Livvic);
     border-top-left-radius: 10px;
@@ -609,8 +612,11 @@ button.btn:hover {
     border-bottom-right-radius: 10px;
     text-align: center;
   }
-  100% {color:transparent;
-  background-color: transparent;}
+
+  100% {
+    color: transparent;
+    background-color: transparent;
+  }
 }
 
 /* @keyframes size {
@@ -1118,8 +1124,21 @@ footer.footer .rights h4 a {
   font-weight: 600;
 }
 
-.active {
+.nav .icon_active {
+  flex: 1;
   color: #4872fb !important;
+  text-align: center;
+}
+
+.nav .icon_active i {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.nav .icon_active p {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 ::-webkit-scrollbar {
@@ -1379,7 +1398,7 @@ footer.footer .rights h4 a {
     margin-top: -16%;
     color: #333;
   }
-  
+
   .card .footer .like p {
     margin-left: 30%;
     margin-top: -16%;
@@ -1402,6 +1421,7 @@ footer.footer .rights h4 a {
     margin-bottom: -20%;
     justify-content: center;
   }
+
   /*  Footer End  */
 
 
@@ -1414,7 +1434,7 @@ footer.footer .rights h4 a {
 @media only screen and (max-width: 500px) {
 
 
-  
+
   .card1 .footer .like p {
     margin-left: 30%;
     margin-top: -20%;
@@ -1443,6 +1463,7 @@ footer.footer .rights h4 a {
     margin-bottom: -20%;
     justify-content: center;
   }
+
   /*  Footer End  */
 
 
