@@ -82,6 +82,11 @@ html {
   font-weight: 300;
 }
 
+.timeline-content img {
+  width: 80px;
+  height: 80px;
+}
+
 .timeline-content .date {
   font-size: 12px;
   font-weight: 300;
