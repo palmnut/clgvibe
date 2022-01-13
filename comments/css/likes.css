@@ -1,7 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
 
-body {
-  background: #eff4ff;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat";
+
+  background-color: #eff4ff;
 }
 
 ::selection {
@@ -15,131 +23,131 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
+  width: 6px;
+  border-radius: 50px;
   background-color: #0d5ffd;
 }
 
-h3 {
-  margin-top: 2%;
-  margin-left: 27%;
-  font-family: 'Manrope', sans-serif;
-  font-weight: bold
+.top {
+  color: #1e1f22;
+  text-align: center;
+  font-size: 50px;
+  top: 0;
 }
 
-.row {
-  margin-top: 5%;
-  margin-bottom: 5%;
-
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0;
+  background-color: #eff4ff;
 }
 
-.row a {
-  font-size: 20px;
-  margin-top: 3%;
-  margin-left: 5%;
-
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
 }
 
-.row h3 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  margin-left: 30%;
+.timeline ul {
+  list-style: none;
 }
 
-.card {
-  background: #ffffff00;
-  border: none;
-  border-radius: 20px;
-  padding: 10px;
-  width: 800px;
-  margin-top: -10%;
-  margin-bottom: 10%;
-}
-
-img {
+.timeline ul li {
+  padding: 20px;
+  background-color: #ddd;
+  color: #1e1f22;
   border-radius: 10px;
-  padding-right: 5px;
-  width: 60px;
-  height: 55px
+  margin-bottom: 20px;
 }
 
-img:hover {
-  cursor: pointer
-}
-
-.round .align-self-start {
-  border-radius: 100%;
-  width: 45px;
-  height: 40px
-}
-
-.media .comment {
-  background: #F4F4F4;
-  border: none;
-  border-radius: 10px
-}
-
-h6.user {
-  color: #5C5C5C;
-  font-size: 15px !important;
-  padding-left: 15px !important;
-  margin-bottom: 0
-}
-
-h6.user:hover {
-  cursor: pointer;
-  text-decoration: underline
-}
-
-p.text {
+.timeline ul li:last-child {
   margin-bottom: 0;
-  color: #8A8A8A !important;
-  font-size: 14px
 }
 
-.ml-auto {
-  margin-right: 10px
+.timeline-content h1 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 10px;
 }
 
-p .reply {
-  color: #5C5C5C;
-  font-size: 15px
+.timeline-content p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
 }
 
-@media screen and (max-width: 1400px) {
-  .card {
-    width: 500px;
-    margin-top: -5%;
-    margin-left: -10%;
-    margin-bottom: 10%;
-  }
+.timeline-content .date {
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
 }
 
-
-@media screen and (max-width: 980px) {
-  .row h3 {
-    margin-left: 20%;
-  }
-  .card {
-    width: 300px;
-    margin-top: -5%;
-    margin-left: -15%;
-    margin-bottom: 10%;
-  }
-}
-
-@media screen and (min-width: 576px) {
-  .comment {
-    width: 470px !important
-  }
-}
-
-@media screen and (max-width: 650px) {
-
-  .card {
-    margin-left: -10%;
-    margin-bottom: 10%;
+@media only screen and (min-width: 768px) {
+  .timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: #555;
   }
 
-  .row h3 {
-    margin-left: 20%;
+  .timeline ul li {
+    width: 50%;
+    position: relative;
+    margin-bottom: 50px;
+  }
+
+  .timeline ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translateX(-30px);
+    border-radius: 20px 0px 20px 20px;
+  }
+
+  .timeline ul li:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translateX(30px);
+    border-radius: 0px 20px 20px 20px;
+  }
+
+  .timeline ul li::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #555;
+    top: 0px;
+  }
+
+  .timeline ul li:nth-child(odd)::before {
+    transform: translate(50%, -50%);
+    right: -30px;
+  }
+
+  .timeline ul li:nth-child(even)::before {
+    transform: translate(-50%, -50%);
+    left: -30px;
+  }
+
+  .timeline-content .date {
+    position: absolute;
+    font-weight: 500;
+    top: -30px;
+  }
+
+  .timeline ul li:hover::before {
+    background-color: #0d5ffd;
   }
 }
