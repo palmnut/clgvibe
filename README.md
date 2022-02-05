@@ -214,7 +214,7 @@ Phone: 9119031587
 clgvibehelp@gmail.com
 
 
-#Privacy Policy
+# Privacy Policy
 Last updated: september 1, 2021
 
 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
