@@ -2,6 +2,8 @@
 # About
 Students are the future and we are doing our best to make that happen. So, join the community today and lets do it together.
 
+
+
 # TERMS OF USE
 
 Last updated september 1, 2021
@@ -212,6 +214,7 @@ _______________________, uttarpradesh
 India
 Phone: 9119031587
 clgvibehelp@gmail.com
+
 
 
 # Privacy Policy
